@@ -68,9 +68,9 @@ let mySprite = sprites.create(img`
 controller.moveSprite(mySprite)
 ```
 
-## Camera movement
+## Stay in screen
 
-Uh-oh, if you move off screen, your ship disappears! From ``||scene:Scene||``, drag the ``||scene:camera follow||`` block **after** ``||variables:set mySprite to||`` to have the camera follow your ship. You're all set to travel the universe!
+Uh-oh, if you move off screen, your ship disappears! From ``||sprites:Sprites||``, drag the ``||sprite:set mySprite stay in screen||`` block **after** ``||variables:set mySprite to||`` and toggle the switch to **ON**. You're all set to travel the universe!
 
 ```blocks
 effects.starField.startScreenEffect()
@@ -94,5 +94,5 @@ let mySprite = sprites.create(img`
 `, SpriteKind.Player)
 controller.moveSprite(mySprite)
 // @highlight
-scene.cameraFollowSprite(mySprite)
+ship.setFlag(SpriteFlag.StayInScreen, true)
 ```
