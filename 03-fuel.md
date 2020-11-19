@@ -276,7 +276,7 @@ game.onUpdateInterval(2000, function () {
 ```
 
 ```ghost
-scene.cameraShake(4, 500)
+statusbar.positionDirection(CollisionDirection.Bottom)
 ```
 
 ```package
