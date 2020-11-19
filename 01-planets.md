@@ -33,7 +33,7 @@ let mySprite = sprites.create(img`
     9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9
 `, SpriteKind.Player)
 controller.moveSprite(mySprite)
-scene.cameraFollowSprite(mySprite)
+mySprite.setFlag(SpriteFlag.StayInScreen, true)
 // @highlight
 let list = [1, 2, 3]
 ```
@@ -209,5 +209,5 @@ let mySprite = sprites.create(img`
     9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9
 `, SpriteKind.Player)
 controller.moveSprite(mySprite)
-scene.cameraFollowSprite(mySprite)
+mySprite.setFlag(SpriteFlag.StayInScreen, true)
 ```
