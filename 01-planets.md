@@ -67,7 +67,7 @@ let mySprite = sprites.create(img`
 controller.moveSprite(mySprite)
 scene.cameraFollowSprite(mySprite)
 // @highlight
-let planets = [img`
+let list = [img`
     3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 
     3 . . . . . . . . . . . . . . 3 
     3 . 3 3 3 3 3 3 3 3 3 3 3 3 . 3 
