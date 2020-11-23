@@ -10,7 +10,12 @@
         "main.ts",
         "README.md",
         "tilemap.g.jres",
-        "tilemap.g.ts"
+        "tilemap.g.ts",
+        "tutorials/ship.md",
+        "tutorials/enemies.md",
+        "tutorials/projectiles.md",
+        "tutorials/planets.md",
+        "tutorials/fuel.md"
     ],
     "testFiles": [
         "test.ts"
