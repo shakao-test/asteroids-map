@@ -170,7 +170,7 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.Enemy, function (sprite, otherSp
 
 ## Step 8
 
-Finally, go into ``||info:Info||`` and drag a ``||info:change life by||`` block 
+Now go into ``||info:Info||`` and drag a ``||info:change life by||`` block 
 into ``||sprites:on overlaps||``. Now practice dodging the enemies! If you have 
 extra time, try experimenting with the ``||scene:camera shake||`` block.
 
@@ -178,6 +178,20 @@ extra time, try experimenting with the ``||scene:camera shake||`` block.
 sprites.onOverlap(SpriteKind.Player, SpriteKind.Enemy, function (sprite, otherSprite) {
     otherSprite.destroy()
     info.changeLifeBy(-1)
+})
+```
+
+## Step 9
+
+Finally, drag another ``||sprites:on overlaps||`` block into the workspace and 
+change the first sprite kind to ``||sprites:Enemy||`` and the second to 
+``||sprites:Projectile||``. Drag out two ``||sprites:destroy sprite||`` blocks--we 
+want to destroy the enemy and your projectile when you hit!
+
+```blocks
+sprites.onOverlap(SpriteKind.Enemy, SpriteKind.Projectile, function (sprite, otherSprite) {
+    otherSprite.destroy();
+    sprite.destroy();
 })
 ```
 
@@ -203,6 +217,20 @@ let mySprite = sprites.create(img`
 `, SpriteKind.Player)
 controller.moveSprite(mySprite)
 mySprite.setFlag(SpriteFlag.StayInScreen, true)
+
+controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
+    let projectile = sprites.createProjectileFromSprite(img`
+3 3 3 3 3 3 3 3 
+3 . . . . . . 3 
+3 . 3 3 3 3 . 3 
+3 . 3 . . 3 . 3 
+3 . 3 . . 3 . 3 
+3 . 3 3 3 3 . 3 
+3 . . . . . . 3 
+3 3 3 3 3 3 3 3 
+    `, mySprite, 0, -70)
+    projectile.startEffect(effects.fire);
+})
 ```
 
 ```ghost
