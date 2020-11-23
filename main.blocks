@@ -66,7 +66,7 @@
 4 . 4 4 4 4 4 4 4 4 4 4 4 4 . 4 
 4 . . . . . . . . . . . . . . 4 
 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 
-`</field></block></value></block></value></block></next></block></next></block></next></block></next></block></statement></block><block type="gameinterval" id="k5?|S$9j/XknF0*n/h0L" x="40" y="400"><value name="period"><shadow type="timePicker" id="p2{f7=dG;`#Gd},JyIz2"><field name="ms">2000</field></shadow></value><statement name="HANDLER"><block type="variables_set" id="3/|ayFa?@KfKwhyE!tUQ"><field name="VAR" id="C~.)a|-.+$pv7t7U5rXz">planet</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreateprojectilefromside" id="EQE+#~5Qkc`q2V~]$QCU"><value name="img"><shadow type="screen_image_picker"><field name="img">img`
+`</field></block></value></block></value></block></next></block></next></block></next></block></next></block></statement></block><block type="gameinterval" id="k5?|S$9j/XknF0*n/h0L" x="0" y="380"><value name="period"><shadow type="timePicker" id="p2{f7=dG;`#Gd},JyIz2"><field name="ms">2000</field></shadow></value><statement name="HANDLER"><block type="variables_set" id="3/|ayFa?@KfKwhyE!tUQ"><field name="VAR" id="C~.)a|-.+$pv7t7U5rXz">planet</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreateprojectilefromside" id="EQE+#~5Qkc`q2V~]$QCU"><value name="img"><shadow type="screen_image_picker"><field name="img">img`
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
