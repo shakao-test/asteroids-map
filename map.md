@@ -13,7 +13,7 @@
 * tags: easy
 * next: projectiles
 
-* url:https://github.com/shakao-test/asteroids-map/tutorials/ship
+* url: https://github.com/shakao-test/asteroids-map/tutorials/ship
 
 ### projectiles
 
@@ -23,7 +23,7 @@
 * tags: easy, projectiles, kinds
 * next: enemies
 
-* url:https://github.com/shakao-test/asteroids-map/tutorials/projectiles
+* url: https://github.com/shakao-test/asteroids-map/tutorials/projectiles
 
 ### enemies
 
@@ -33,7 +33,7 @@
 * tags: easy, enemies, kinds
 * next: fuel
 
-* url:https://github.com/shakao-test/asteroids-map/tutorials/enemies
+* url: https://github.com/shakao-test/asteroids-map/tutorials/enemies
 
 ### fuel
 
@@ -43,7 +43,7 @@
 * tags: intermediate, extensions
 * next: planets
 
-* url:https://github.com/shakao-test/asteroids-map/tutorials/fuel
+* url: https://github.com/shakao-test/asteroids-map/tutorials/fuel
 
 ### planets
 
@@ -52,4 +52,4 @@
 * description: Space is big and empty! Add some planets and randomized objects to fill out the environment.
 * tags: intermediate, arrays
 
-* url:https://github.com/shakao-test/asteroids-map/tutorials/planets
+* url: https://github.com/shakao-test/asteroids-map/tutorials/planets
