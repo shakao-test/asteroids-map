@@ -74,7 +74,7 @@ controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
 3 3 3 3 3 3 3 3 
     `, mySprite, 0, -70)
     // @highlight
-    mySprite.startEffect(effects.fire);
+    projectile.startEffect(effects.fire);
 })
 ```
 
